@@ -1,24 +1,13 @@
-//
-//  ContentView.swift
-//  Pig
-//
-//  Created by Cameron Voelpel on 11/10/26.
-//
-
 import SwiftUI
-
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Image("Happy Pig")
+                .resizable()
+                .frame(width: 450, height: 450)
         }
-        .padding()
     }
 }
-
 #Preview {
     ContentView()
 }
