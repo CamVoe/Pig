@@ -16,7 +16,7 @@ struct ContentView: View {
                         .foregroundColor(.primary)
                         .padding(90)
                 }
-                NavigationLink(destination: Game()) {
+                NavigationLink(destination: HowToPlay()) {
                     Text("How to play")
                         .font(.custom("Handlee-Regular", size: 75))
                         .padding(-10)
