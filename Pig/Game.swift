@@ -16,13 +16,29 @@ struct Game: View {
                     .padding(.vertical, 8)
                     .background(Color(.systemGray5))
                     .clipShape(RoundedRectangle(cornerRadius: 15))
+                    .onTapGesture {
+                        
+                    }
                 Text("Hold")
                     .font(.custom("Handlee-Regular", size: 50))
                     .padding(.horizontal, 20)
                     .padding(.vertical, 8)
                     .background(Color(.systemGray5))
                     .clipShape(RoundedRectangle(cornerRadius: 15))
+                    .onTapGesture {
+                        
+                    }
             }
+            Text("")
+            Text("Reset")
+                .font(.custom("Handlee-Regular", size: 50))
+                .padding(.horizontal, 98)
+                .padding(.vertical, 8)
+                .background(Color(.systemGray5))
+                .clipShape(RoundedRectangle(cornerRadius: 15))
+                .onTapGesture {
+                    
+                }
         }
         .padding(.horizontal)
     }
